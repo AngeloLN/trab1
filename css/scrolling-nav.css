@@ -1,0 +1,103 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+section {
+  padding: 150px 0;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption{
+  padding-bottom: 35%;
+}
+
+.container .collapse .navbar-nav {
+  background-color: rgb(155, 142, 189);
+  padding-right: 30%;
+  font-size: 16pt;
+}
+.display-4 {
+  color: rgb(49, 2, 93);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 46pt;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#Serviços{
+  background-color: rgb(84, 64, 170);
+
+}
+
+#Clientes{
+  background-color: rgb(211, 136, 230);
+}
+
+#Orçamento{
+  background-color: rgb(238, 183, 101);
+}
+
+#Contatos{
+  background-color: rgb(169, 245, 245);
+}
+
+
+@-webkit-keyframes color {  
+  0% { background-color: rgb(115, 97, 216); }
+  25% { background-color: rgb(109, 36, 173); }
+  26% { background-color:  rgb(109, 36, 173); }
+  50% { background-color: rgb(241, 221, 103);}
+  51% { background-color: rgb(241, 221, 103); }
+  75% { background-color:  rgb(214, 87, 2); }
+  76% { background-color: rgb(214, 87, 2);  }
+  100% { background-color:  rgb(115, 97, 216); }
+}
+
+.blinkdiv {
+    height: 20px;
+  -webkit-animation-name: color;
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-duration: 10s; 
+}  
+p {
+  font-size: 14pt;
+}
+
+.lead{
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+ul li{
+  font-size: 14pt;
+}
+#mainNav {
+  background-color: rgb(228, 174, 238);
+}
+
+.carousel-control-next-icon{
+  background-color: rgb(0, 0, 0);
+}
+
+.carousel-control-prev-icon{
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
